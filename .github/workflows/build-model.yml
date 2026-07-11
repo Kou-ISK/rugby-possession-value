@@ -1,0 +1,23 @@
+name: build-public-model
+on:
+  workflow_dispatch:
+    inputs:
+      bootstrap:
+        description: Match-cluster bootstrap iterations
+        default: "500"
+        required: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -e .
+      - run: rugby-value fetch-data
+      - run: rugby-value fit data/raw/phase_2018-19.csv --output models/premiership-2018-19 --bootstrap ${{ inputs.bootstrap }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: premiership-2018-19-rugby-epv
+          path: models/premiership-2018-19/
