@@ -25,6 +25,17 @@ OUTCOME_REWARD: dict[str, float] = {
     "Against Drop Goal (-3)": -3.0,
     "End of Half / Match (0)": 0.0,
 }
+MIRROR_OUTCOME: dict[str, str] = {
+    "For Converted Try (+7)": "Against Converted Try (-7)",
+    "For Try (+5)": "Against Try (-5)",
+    "For Penalty Kick (+3)": "Against Penalty Kick (-3)",
+    "For Drop Goal (+3)": "Against Drop Goal (-3)",
+    "Against Converted Try (-7)": "For Converted Try (+7)",
+    "Against Try (-5)": "For Try (+5)",
+    "Against Penalty Kick (-3)": "For Penalty Kick (+3)",
+    "Against Drop Goal (-3)": "For Drop Goal (+3)",
+    "End of Half / Match (0)": "End of Half / Match (0)",
+}
 
 
 def phase_bucket(phase: int) -> str:
