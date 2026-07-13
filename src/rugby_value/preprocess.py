@@ -8,17 +8,37 @@ import pandas as pd
 from .schema import OUTCOME_REWARD, State, phase_bucket
 
 REQUIRED_COLUMNS = {
-    "ID", "Round", "Home", "Away", "Phase", "Team_In_Poss", "Location", "Side",
-    "Play_Start", "Points_Difference", "Seconds_Remaining", "Outcome",
+    "ID",
+    "Round",
+    "Home",
+    "Away",
+    "Phase",
+    "Team_In_Poss",
+    "Location",
+    "Side",
+    "Play_Start",
+    "Points_Difference",
+    "Seconds_Remaining",
+    "Outcome",
 }
 
 
 @dataclass(frozen=True)
-class Trajectory:
+class Observation:
     match_id: str
-    possession_id: str
-    states: tuple[State, ...]
+    row_id: int
+    team_in_poss: str
+    points_difference: float
     outcome: str
+    state: State
+
+
+@dataclass(frozen=True)
+class Step:
+    source_state: State
+    target_state: State | None
+    possession_flipped: bool
+    absorb_outcome: str | None
 
 
 def load_phase_data(path: str | Path) -> pd.DataFrame:
@@ -32,57 +52,89 @@ def load_phase_data(path: str | Path) -> pd.DataFrame:
     return frame
 
 
-def prepare_trajectories(frame: pd.DataFrame) -> list[Trajectory]:
-    """Reconstruct possession trajectories from ordered phase rows.
-
-    A new possession starts on Phase == 1. Defensive fallbacks detect team changes,
-    non-increasing IDs, and phase-number resets in imperfect input data.
-    """
-    df = frame.copy()
-    df["match_id"] = (
-        df["Round"].astype(str) + "|" + df["Home"].astype(str) + "|" + df["Away"].astype(str)
+def prepare_observations(frame: pd.DataFrame) -> list[Observation]:
+    """Convert phase rows into one ordered game-state sequence per match."""
+    data = frame.copy()
+    data["match_id"] = (
+        data["Round"].astype(str)
+        + "|"
+        + data["Home"].astype(str)
+        + "|"
+        + data["Away"].astype(str)
     )
-    df = df.sort_values(["match_id", "ID"], kind="stable").reset_index(drop=True)
+    data = data.sort_values(["match_id", "ID"], kind="stable").reset_index(drop=True)
 
-    trajectories: list[Trajectory] = []
-    for match_id, match in df.groupby("match_id", sort=False):
-        current: list[pd.Series] = []
-        run_number = 0
-        previous: pd.Series | None = None
-        for _, row in match.iterrows():
-            starts_new = previous is None or int(row["Phase"]) == 1
-            if previous is not None:
-                starts_new = starts_new or row["Team_In_Poss"] != previous["Team_In_Poss"]
-                starts_new = starts_new or int(row["Phase"]) <= int(previous["Phase"])
-                starts_new = starts_new or int(row["ID"]) <= int(previous["ID"])
-            if starts_new and current:
-                trajectories.append(_to_trajectory(match_id, run_number, current))
-                current = []
-                run_number += 1
-            current.append(row)
-            previous = row
-        if current:
-            trajectories.append(_to_trajectory(match_id, run_number, current))
-    return trajectories
-
-
-def _to_trajectory(match_id: str, run_number: int, rows: list[pd.Series]) -> Trajectory:
-    origin = str(rows[0]["Play_Start"])
-    outcome = str(rows[-1]["Outcome"])
-    # The published data normally repeats the possession outcome across phases.
-    # The final row is authoritative; inconsistencies are deliberately not duplicated.
-    states = tuple(
-        State(
-            origin=origin,
-            location=str(row["Location"]),
-            side=str(row["Side"]),
-            phase_bucket=phase_bucket(int(row["Phase"])),
+    return [
+        Observation(
+            match_id=str(row["match_id"]),
+            row_id=int(row["ID"]),
+            team_in_poss=str(row["Team_In_Poss"]),
+            points_difference=float(row["Points_Difference"]),
+            outcome=str(row["Outcome"]),
+            state=State(
+                origin=str(row["Play_Start"]),
+                location=str(row["Location"]),
+                side=str(row["Side"]),
+                phase_bucket=phase_bucket(int(row["Phase"])),
+            ),
         )
-        for row in rows
-    )
-    return Trajectory(
-        match_id=match_id,
-        possession_id=f"{match_id}|{run_number}",
-        states=states,
-        outcome=outcome,
-    )
+        for _, row in data.iterrows()
+    ]
+
+
+def build_steps(observations: list[Observation]) -> list[Step]:
+    """Build signed transitions from consecutive rows.
+
+    ``Points_Difference`` is expressed from the possession team's perspective.
+    The next row is therefore converted back to the source team's perspective
+    before checking whether a scoring event occurred between the rows.
+    """
+    steps: list[Step] = []
+    for index, observation in enumerate(observations):
+        is_match_end = (
+            index == len(observations) - 1
+            or observations[index + 1].match_id != observation.match_id
+        )
+        if is_match_end:
+            steps.append(
+                Step(
+                    source_state=observation.state,
+                    target_state=None,
+                    possession_flipped=False,
+                    absorb_outcome=observation.outcome,
+                )
+            )
+            continue
+
+        next_observation = observations[index + 1]
+        possession_flipped = next_observation.team_in_poss != observation.team_in_poss
+        next_difference_from_source = (
+            -next_observation.points_difference
+            if possession_flipped
+            else next_observation.points_difference
+        )
+        score_delta = next_difference_from_source - observation.points_difference
+
+        if abs(score_delta) > 1e-9:
+            steps.append(
+                Step(
+                    source_state=observation.state,
+                    target_state=None,
+                    possession_flipped=possession_flipped,
+                    absorb_outcome=observation.outcome,
+                )
+            )
+        else:
+            steps.append(
+                Step(
+                    source_state=observation.state,
+                    target_state=next_observation.state,
+                    possession_flipped=possession_flipped,
+                    absorb_outcome=None,
+                )
+            )
+    return steps
+
+
+def prepare_steps(frame: pd.DataFrame) -> list[Step]:
+    return build_steps(prepare_observations(frame))
