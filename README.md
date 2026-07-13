@@ -4,13 +4,24 @@
 
 An open-source, reproducible framework for estimating **Expected Possession Value (EPV)** and **Expected Points Added (EPA)** in rugby union.
 
-The project deliberately separates:
+Version 0.2 models the game **across possession changes**. A kick or turnover does not terminate value estimation: the chain continues into the opponent's next state, with that state's value sign-flipped back into the source team's perspective.
 
-- **EPV**: the expected terminal net points of a game state under the observed policy;
-- **EPA**: the change in EPV caused by an observed transition;
-- **decision value**: counterfactual action comparison, which requires action-labelled data and is not inferred from phase-only data.
+## Core recursion
 
-The baseline estimator is an **absorbing Markov reward process** with hierarchical empirical-Bayes smoothing and match-cluster bootstrap uncertainty.
+```text
+V(s)
+= Σ P_same(s→s') V(s')
++ Σ P_opp(s→s') [-V(s')]
++ Σ P_score(s→o) u(o)
+```
+
+The source dataset is ordered by match and phase ID. Consecutive rows are used to estimate:
+
+- same-team state transitions;
+- opponent-possession state transitions;
+- scoring-event absorption.
+
+A scoring event between two rows is detected by converting the next row's `Points_Difference` back to the source team's perspective.
 
 ## Quick start
 
@@ -19,34 +30,19 @@ python -m pip install -e ".[dev]"
 rugby-value fetch-data
 rugby-value fit data/raw/phase_2018-19.csv --output models/premiership-2018-19
 rugby-value table models/premiership-2018-19/model.json --output data/processed
-rugby-value validate data/raw/phase_2018-19.csv --output validation
 ```
 
-## Core equation
+Outputs include:
 
-For transient state transition `s -> s'`:
+- `state_values.csv`
+- `start_state_values.csv`
+- `transition_probabilities.csv`
+- `student_table.csv`
+- `observed_epa.csv`
 
-```text
-EPA = EPV(s') - EPV(s)
-```
+## Interpretation
 
-For an absorbing transition with terminal reward `r`:
-
-```text
-EPA = r - EPV(s)
-```
-
-The EPV vector is obtained from:
-
-```text
-V = (I - Q)^(-1) B u
-```
-
-where `Q` is the transient transition matrix, `B` is the transition matrix to absorbing outcomes, and `u` is the outcome reward vector.
-
-## Status
-
-The repository provides a production-quality implementation and reproducible pipeline. The source dataset is not redistributed; the fetch command downloads it from its public upstream repository.
+This is an **observed-policy state-value model**. It correctly carries value through possession changes, but the public phase data does not label individual choices such as carry, pass, box kick or territory kick. Those counterfactual action values require action-labelled event data.
 
 ## References
 
