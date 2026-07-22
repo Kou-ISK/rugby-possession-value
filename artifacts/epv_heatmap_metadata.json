@@ -1,0 +1,10 @@
+{
+  "source_repository": "WhartonSABI/rugby-ep",
+  "source_commit": "ee1e3b1cb98b879dac66372f19c886e2c69062b1",
+  "source_blob": "6cc793ef8d21b5ec08dc7a21a37533ad4e7d6e35",
+  "source_url": "https://raw.githubusercontent.com/WhartonSABI/rugby-ep/ee1e3b1cb98b879dac66372f19c886e2c69062b1/data/phase_2018-19.csv",
+  "rows": 35199,
+  "matches": 132,
+  "model": "signed cross-possession Markov reward process with hierarchical empirical-Bayes smoothing",
+  "colour_scale": "symmetric diverging scale centred at EPV=0; orange negative, white zero, blue positive"
+}

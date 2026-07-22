@@ -1,0 +1,577 @@
+origin,location,side,phase_bucket,epv,observations
+Lineout,Goal-5m (own),Left,1,0.3733027035400933,18
+Lineout,Goal-5m (own),Left,2-3,0.4645866396960949,3
+Lineout,Goal-5m (own),Left,4-6,0.7309113743172229,0
+Lineout,Goal-5m (own),Left,7+,0.7474920124796608,0
+Lineout,Goal-5m (own),Centre,1,0.6434908658360973,0
+Lineout,Goal-5m (own),Centre,2-3,0.44740557030553896,4
+Lineout,Goal-5m (own),Centre,4-6,0.7309113743172228,0
+Lineout,Goal-5m (own),Centre,7+,0.7474920124796602,0
+Lineout,Goal-5m (own),Right,1,0.33878982574107797,29
+Lineout,Goal-5m (own),Right,2-3,0.5883553212417588,9
+Lineout,Goal-5m (own),Right,4-6,0.6424667670224911,1
+Lineout,Goal-5m (own),Right,7+,0.7474920124796604,0
+Lineout,5m-22m (own),Left,1,-0.012901928693335285,87
+Lineout,5m-22m (own),Left,2-3,0.0456904833016792,21
+Lineout,5m-22m (own),Left,4-6,0.4769131840126044,3
+Lineout,5m-22m (own),Left,7+,0.7456302133606256,0
+Lineout,5m-22m (own),Centre,1,0.5287817880709104,0
+Lineout,5m-22m (own),Centre,2-3,-0.15101281295761415,71
+Lineout,5m-22m (own),Centre,4-6,0.6546313431374228,2
+Lineout,5m-22m (own),Centre,7+,0.7456302133606255,0
+Lineout,5m-22m (own),Right,1,-0.15906597448258206,115
+Lineout,5m-22m (own),Right,2-3,0.07001434920955295,43
+Lineout,5m-22m (own),Right,4-6,0.7047514012288586,6
+Lineout,5m-22m (own),Right,7+,0.7456302133606256,0
+Lineout,22m-10m (own),Left,1,0.11715284694172262,164
+Lineout,22m-10m (own),Left,2-3,0.2161784970220602,39
+Lineout,22m-10m (own),Left,4-6,0.47470921199797134,8
+Lineout,22m-10m (own),Left,7+,0.7441257912900121,2
+Lineout,22m-10m (own),Centre,1,0.5562981637774251,3
+Lineout,22m-10m (own),Centre,2-3,0.15508302304778662,99
+Lineout,22m-10m (own),Centre,4-6,0.40857658605880676,34
+Lineout,22m-10m (own),Centre,7+,0.7002237348123043,18
+Lineout,22m-10m (own),Right,1,0.007931912653907087,189
+Lineout,22m-10m (own),Right,2-3,0.08306096886029282,50
+Lineout,22m-10m (own),Right,4-6,0.706855087029414,15
+Lineout,22m-10m (own),Right,7+,0.5978844488315083,3
+Lineout,10m-Half (own),Left,1,0.38626157007548134,186
+Lineout,10m-Half (own),Left,2-3,0.4810614934911587,32
+Lineout,10m-Half (own),Left,4-6,0.5876310112423493,15
+Lineout,10m-Half (own),Left,7+,0.6331039604332059,19
+Lineout,10m-Half (own),Centre,1,0.637927506199224,2
+Lineout,10m-Half (own),Centre,2-3,0.3707887154743984,213
+Lineout,10m-Half (own),Centre,4-6,0.4112553688699429,89
+Lineout,10m-Half (own),Centre,7+,0.5480173494004122,40
+Lineout,10m-Half (own),Right,1,0.33886771739925436,190
+Lineout,10m-Half (own),Right,2-3,0.3371369674902775,53
+Lineout,10m-Half (own),Right,4-6,0.5013490846919371,19
+Lineout,10m-Half (own),Right,7+,0.6460939603334731,11
+Lineout,Half-10m (opp),Left,1,0.49120804502471954,251
+Lineout,Half-10m (opp),Left,2-3,0.4207909692915092,48
+Lineout,Half-10m (opp),Left,4-6,0.6953284655717645,52
+Lineout,Half-10m (opp),Left,7+,0.5828152741848702,20
+Lineout,Half-10m (opp),Centre,1,0.6638468026694132,0
+Lineout,Half-10m (opp),Centre,2-3,0.6314675142438807,374
+Lineout,Half-10m (opp),Centre,4-6,0.607952315834756,247
+Lineout,Half-10m (opp),Centre,7+,0.5190255332861193,127
+Lineout,Half-10m (opp),Right,1,0.5318930912893397,246
+Lineout,Half-10m (opp),Right,2-3,0.7181415050712607,52
+Lineout,Half-10m (opp),Right,4-6,0.6346301603165404,41
+Lineout,Half-10m (opp),Right,7+,0.6501342349765946,24
+Lineout,10m-22m (opp),Left,1,0.7731358539184844,406
+Lineout,10m-22m (opp),Left,2-3,0.8506261817784773,115
+Lineout,10m-22m (opp),Left,4-6,0.8390936146377932,127
+Lineout,10m-22m (opp),Left,7+,0.7672144479897359,105
+Lineout,10m-22m (opp),Centre,1,0.687973496344932,0
+Lineout,10m-22m (opp),Centre,2-3,0.9181624622751497,768
+Lineout,10m-22m (opp),Centre,4-6,0.9223432078454395,558
+Lineout,10m-22m (opp),Centre,7+,0.8946162137506927,399
+Lineout,10m-22m (opp),Right,1,0.7561649496859053,378
+Lineout,10m-22m (opp),Right,2-3,0.9738809419278031,117
+Lineout,10m-22m (opp),Right,4-6,0.9076505170084063,116
+Lineout,10m-22m (opp),Right,7+,0.9676903272570685,73
+Lineout,22m-5m (opp),Left,1,1.2253770780754836,286
+Lineout,22m-5m (opp),Left,2-3,1.4062710625975035,141
+Lineout,22m-5m (opp),Left,4-6,1.397218667562962,102
+Lineout,22m-5m (opp),Left,7+,1.344167501754959,123
+Lineout,22m-5m (opp),Centre,1,1.0341130186917646,2
+Lineout,22m-5m (opp),Centre,2-3,1.5053255142959636,529
+Lineout,22m-5m (opp),Centre,4-6,1.5450559782989337,712
+Lineout,22m-5m (opp),Centre,7+,1.5710779313101493,633
+Lineout,22m-5m (opp),Right,1,1.2366219138506302,288
+Lineout,22m-5m (opp),Right,2-3,1.3521585720804317,154
+Lineout,22m-5m (opp),Right,4-6,1.2908074014034085,85
+Lineout,22m-5m (opp),Right,7+,1.552267318953237,102
+Lineout,5m-Goal (opp),Left,1,2.010522912775125,167
+Lineout,5m-Goal (opp),Left,2-3,1.6382987851494877,90
+Lineout,5m-Goal (opp),Left,4-6,1.8490647344506603,35
+Lineout,5m-Goal (opp),Left,7+,1.910624785116073,42
+Lineout,5m-Goal (opp),Centre,1,0.7431470938273043,0
+Lineout,5m-Goal (opp),Centre,2-3,2.397482381571821,102
+Lineout,5m-Goal (opp),Centre,4-6,2.629359243808704,197
+Lineout,5m-Goal (opp),Centre,7+,2.8124138294328223,292
+Lineout,5m-Goal (opp),Right,1,1.8390107003301226,180
+Lineout,5m-Goal (opp),Right,2-3,1.894735200600624,68
+Lineout,5m-Goal (opp),Right,4-6,1.3611414735179153,31
+Lineout,5m-Goal (opp),Right,7+,1.8541399332587811,33
+Scrum,Goal-5m (own),Left,1,0.2840930425365709,27
+Scrum,Goal-5m (own),Left,2-3,0.5035039714614061,3
+Scrum,Goal-5m (own),Left,4-6,0.4925808937406469,2
+Scrum,Goal-5m (own),Left,7+,0.6970971215174604,0
+Scrum,Goal-5m (own),Centre,1,0.23391019813336728,38
+Scrum,Goal-5m (own),Centre,2-3,0.415684644291178,15
+Scrum,Goal-5m (own),Centre,4-6,0.5204732733058248,4
+Scrum,Goal-5m (own),Centre,7+,0.6970971215174607,0
+Scrum,Goal-5m (own),Right,1,0.4147586917758961,17
+Scrum,Goal-5m (own),Right,2-3,0.5984892965133962,10
+Scrum,Goal-5m (own),Right,4-6,0.5798921800409934,1
+Scrum,Goal-5m (own),Right,7+,0.6970971215174606,0
+Scrum,5m-22m (own),Left,1,0.14138984893752188,71
+Scrum,5m-22m (own),Left,2-3,0.14338203671718888,34
+Scrum,5m-22m (own),Left,4-6,0.44475297505625166,4
+Scrum,5m-22m (own),Left,7+,0.7058084866533854,1
+Scrum,5m-22m (own),Centre,1,0.054058878500910214,118
+Scrum,5m-22m (own),Centre,2-3,-0.04431032034428515,67
+Scrum,5m-22m (own),Centre,4-6,0.42039417861386874,7
+Scrum,5m-22m (own),Centre,7+,0.6116715084257307,1
+Scrum,5m-22m (own),Right,1,0.19229871278366126,55
+Scrum,5m-22m (own),Right,2-3,0.07597170276734865,31
+Scrum,5m-22m (own),Right,4-6,0.5225301447997996,5
+Scrum,5m-22m (own),Right,7+,0.6952873088362844,0
+Scrum,22m-10m (own),Left,1,0.2104069040960702,93
+Scrum,22m-10m (own),Left,2-3,0.15344930010834662,28
+Scrum,22m-10m (own),Left,4-6,0.43765386979059007,13
+Scrum,22m-10m (own),Left,7+,0.8399285942349584,2
+Scrum,22m-10m (own),Centre,1,0.27494869553507173,178
+Scrum,22m-10m (own),Centre,2-3,0.17788775559350428,107
+Scrum,22m-10m (own),Centre,4-6,0.3295948444827684,32
+Scrum,22m-10m (own),Centre,7+,0.5982464729085223,9
+Scrum,22m-10m (own),Right,1,0.40664358530727346,97
+Scrum,22m-10m (own),Right,2-3,0.21434694411751207,37
+Scrum,22m-10m (own),Right,4-6,0.3534398098621494,8
+Scrum,22m-10m (own),Right,7+,0.6930882040370734,1
+Scrum,10m-Half (own),Left,1,0.4249750519949501,70
+Scrum,10m-Half (own),Left,2-3,0.4980828418783313,27
+Scrum,10m-Half (own),Left,4-6,0.38687926250664584,15
+Scrum,10m-Half (own),Left,7+,0.621007482914123,2
+Scrum,10m-Half (own),Centre,1,0.4550002645306133,160
+Scrum,10m-Half (own),Centre,2-3,0.415694667778152,75
+Scrum,10m-Half (own),Centre,4-6,0.5927442714563157,46
+Scrum,10m-Half (own),Centre,7+,0.760234207270426,13
+Scrum,10m-Half (own),Right,1,0.3580413906586986,55
+Scrum,10m-Half (own),Right,2-3,0.6081331806288799,23
+Scrum,10m-Half (own),Right,4-6,0.5354405897387806,6
+Scrum,10m-Half (own),Right,7+,0.6069482107294094,2
+Scrum,Half-10m (opp),Left,1,0.5970026065842543,56
+Scrum,Half-10m (opp),Left,2-3,0.5362824803174366,32
+Scrum,Half-10m (opp),Left,4-6,0.557009973157883,16
+Scrum,Half-10m (opp),Left,7+,0.6618953006168081,5
+Scrum,Half-10m (opp),Centre,1,0.6149117756950536,116
+Scrum,Half-10m (opp),Centre,2-3,0.46625921093935124,111
+Scrum,Half-10m (opp),Centre,4-6,0.4182524455664321,65
+Scrum,Half-10m (opp),Centre,7+,0.4702145610679472,24
+Scrum,Half-10m (opp),Right,1,0.6432661715364565,57
+Scrum,Half-10m (opp),Right,2-3,0.6715653611549677,30
+Scrum,Half-10m (opp),Right,4-6,0.6203440439578197,11
+Scrum,Half-10m (opp),Right,7+,0.6466518143038972,4
+Scrum,10m-22m (opp),Left,1,0.8771010665500576,61
+Scrum,10m-22m (opp),Left,2-3,0.7459857089485615,56
+Scrum,10m-22m (opp),Left,4-6,0.6017641600728213,35
+Scrum,10m-22m (opp),Left,7+,0.8220957070785425,20
+Scrum,10m-22m (opp),Centre,1,0.987842140633419,129
+Scrum,10m-22m (opp),Centre,2-3,0.8106931811471929,166
+Scrum,10m-22m (opp),Centre,4-6,0.801453261259503,144
+Scrum,10m-22m (opp),Centre,7+,1.1432829186960811,82
+Scrum,10m-22m (opp),Right,1,0.7567664629125754,56
+Scrum,10m-22m (opp),Right,2-3,0.6939468727838564,56
+Scrum,10m-22m (opp),Right,4-6,0.8547266742731574,25
+Scrum,10m-22m (opp),Right,7+,0.7617596708027442,17
+Scrum,22m-5m (opp),Left,1,1.1675690595958834,46
+Scrum,22m-5m (opp),Left,2-3,1.0312693062880438,36
+Scrum,22m-5m (opp),Left,4-6,1.187787642213676,38
+Scrum,22m-5m (opp),Left,7+,1.0893079850597656,31
+Scrum,22m-5m (opp),Centre,1,1.2504116742249847,60
+Scrum,22m-5m (opp),Centre,2-3,1.1859803851760264,175
+Scrum,22m-5m (opp),Centre,4-6,1.326353737055632,175
+Scrum,22m-5m (opp),Centre,7+,1.3456907807839562,177
+Scrum,22m-5m (opp),Right,1,1.0738838198308869,36
+Scrum,22m-5m (opp),Right,2-3,0.9646701461558496,46
+Scrum,22m-5m (opp),Right,4-6,0.934230198732327,24
+Scrum,22m-5m (opp),Right,7+,1.1423412079533035,20
+Scrum,5m-Goal (opp),Left,1,1.2656962522028352,31
+Scrum,5m-Goal (opp),Left,2-3,1.4205521482661163,10
+Scrum,5m-Goal (opp),Left,4-6,1.0798695884345846,9
+Scrum,5m-Goal (opp),Left,7+,1.8183398060659912,15
+Scrum,5m-Goal (opp),Centre,1,1.7989405925967146,86
+Scrum,5m-Goal (opp),Centre,2-3,1.8598693524878096,94
+Scrum,5m-Goal (opp),Centre,4-6,1.949350291803007,91
+Scrum,5m-Goal (opp),Centre,7+,2.827623645523879,157
+Scrum,5m-Goal (opp),Right,1,1.679340071683019,29
+Scrum,5m-Goal (opp),Right,2-3,1.0677679019605057,14
+Scrum,5m-Goal (opp),Right,4-6,0.7952261398677483,9
+Scrum,5m-Goal (opp),Right,7+,1.6118137355855795,8
+Kick (Open Play),Goal-5m (own),Left,1,-0.14069871761960298,39
+Kick (Open Play),Goal-5m (own),Left,2-3,0.2718452328419617,10
+Kick (Open Play),Goal-5m (own),Left,4-6,0.4082377379869812,3
+Kick (Open Play),Goal-5m (own),Left,7+,0.6872756294696221,0
+Kick (Open Play),Goal-5m (own),Centre,1,0.026971269789305353,42
+Kick (Open Play),Goal-5m (own),Centre,2-3,0.48574997856031465,7
+Kick (Open Play),Goal-5m (own),Centre,4-6,0.651611302653827,2
+Kick (Open Play),Goal-5m (own),Centre,7+,0.687275629469622,0
+Kick (Open Play),Goal-5m (own),Right,1,-0.14474622952312524,40
+Kick (Open Play),Goal-5m (own),Right,2-3,0.22962044163556247,9
+Kick (Open Play),Goal-5m (own),Right,4-6,0.5688388874404083,1
+Kick (Open Play),Goal-5m (own),Right,7+,0.6872756294696221,0
+Kick (Open Play),5m-22m (own),Left,1,-0.24510714650701915,247
+Kick (Open Play),5m-22m (own),Left,2-3,-0.05038940415301791,63
+Kick (Open Play),5m-22m (own),Left,4-6,0.2846480735809108,10
+Kick (Open Play),5m-22m (own),Left,7+,0.5896859504351499,2
+Kick (Open Play),5m-22m (own),Centre,1,-0.11325821096962618,174
+Kick (Open Play),5m-22m (own),Centre,2-3,0.07008369521072678,57
+Kick (Open Play),5m-22m (own),Centre,4-6,0.344808760872456,9
+Kick (Open Play),5m-22m (own),Centre,7+,0.6855715894996597,0
+Kick (Open Play),5m-22m (own),Right,1,-0.17160984615655653,206
+Kick (Open Play),5m-22m (own),Right,2-3,-0.0004295998355294988,48
+Kick (Open Play),5m-22m (own),Right,4-6,0.44863422368041705,4
+Kick (Open Play),5m-22m (own),Right,7+,0.6855715894996602,0
+Kick (Open Play),22m-10m (own),Left,1,0.17612352419933006,503
+Kick (Open Play),22m-10m (own),Left,2-3,0.056024316123995485,225
+Kick (Open Play),22m-10m (own),Left,4-6,0.14669200993172185,49
+Kick (Open Play),22m-10m (own),Left,7+,0.5530655619105175,10
+Kick (Open Play),22m-10m (own),Centre,1,0.11880788563258324,378
+Kick (Open Play),22m-10m (own),Centre,2-3,0.0596043506016263,440
+Kick (Open Play),22m-10m (own),Centre,4-6,0.13180172316344912,153
+Kick (Open Play),22m-10m (own),Centre,7+,0.4656486987130896,19
+Kick (Open Play),22m-10m (own),Right,1,0.15294886555729292,432
+Kick (Open Play),22m-10m (own),Right,2-3,0.11190311871542874,162
+Kick (Open Play),22m-10m (own),Right,4-6,0.11887251844917213,45
+Kick (Open Play),22m-10m (own),Right,7+,0.5613108137124101,6
+Kick (Open Play),10m-Half (own),Left,1,0.3721000271525548,281
+Kick (Open Play),10m-Half (own),Left,2-3,0.24433388640687964,194
+Kick (Open Play),10m-Half (own),Left,4-6,0.4956190748350254,68
+Kick (Open Play),10m-Half (own),Left,7+,0.5512271199306756,22
+Kick (Open Play),10m-Half (own),Centre,1,0.3197696460823909,153
+Kick (Open Play),10m-Half (own),Centre,2-3,0.3298135764396842,517
+Kick (Open Play),10m-Half (own),Centre,4-6,0.347647128449434,243
+Kick (Open Play),10m-Half (own),Centre,7+,0.41156660755171703,74
+Kick (Open Play),10m-Half (own),Right,1,0.3990437088198045,269
+Kick (Open Play),10m-Half (own),Right,2-3,0.3430497349092254,180
+Kick (Open Play),10m-Half (own),Right,4-6,0.444455074857921,53
+Kick (Open Play),10m-Half (own),Right,7+,0.40943786233309687,10
+Kick (Open Play),Half-10m (opp),Left,1,0.5825829321573829,160
+Kick (Open Play),Half-10m (opp),Left,2-3,0.5039576073692036,203
+Kick (Open Play),Half-10m (opp),Left,4-6,0.5510309218529661,87
+Kick (Open Play),Half-10m (opp),Left,7+,0.505657543164195,33
+Kick (Open Play),Half-10m (opp),Centre,1,0.6285730506177006,100
+Kick (Open Play),Half-10m (opp),Centre,2-3,0.5934220728833989,501
+Kick (Open Play),Half-10m (opp),Centre,4-6,0.5987526122123754,352
+Kick (Open Play),Half-10m (opp),Centre,7+,0.5019817926344837,124
+Kick (Open Play),Half-10m (opp),Right,1,0.5990851027540732,207
+Kick (Open Play),Half-10m (opp),Right,2-3,0.5091965810582433,211
+Kick (Open Play),Half-10m (opp),Right,4-6,0.5254183253317446,79
+Kick (Open Play),Half-10m (opp),Right,7+,0.5923508416915899,22
+Kick (Open Play),10m-22m (opp),Left,1,0.6484720994213322,68
+Kick (Open Play),10m-22m (opp),Left,2-3,0.7667417722243627,144
+Kick (Open Play),10m-22m (opp),Left,4-6,0.77838415365603,114
+Kick (Open Play),10m-22m (opp),Left,7+,0.8213578542180997,70
+Kick (Open Play),10m-22m (opp),Centre,1,0.7076772814124981,36
+Kick (Open Play),10m-22m (opp),Centre,2-3,0.7645564044229088,264
+Kick (Open Play),10m-22m (opp),Centre,4-6,0.8969676438104411,360
+Kick (Open Play),10m-22m (opp),Centre,7+,0.8640486340252617,338
+Kick (Open Play),10m-22m (opp),Right,1,0.6039911476464702,88
+Kick (Open Play),10m-22m (opp),Right,2-3,0.7077750158769366,117
+Kick (Open Play),10m-22m (opp),Right,4-6,0.7929020951684563,124
+Kick (Open Play),10m-22m (opp),Right,7+,0.8225365980227266,63
+Kick (Open Play),22m-5m (opp),Left,1,1.7225204917454489,11
+Kick (Open Play),22m-5m (opp),Left,2-3,1.0334393089721003,39
+Kick (Open Play),22m-5m (opp),Left,4-6,1.2405100275277183,44
+Kick (Open Play),22m-5m (opp),Left,7+,1.3145620189582836,79
+Kick (Open Play),22m-5m (opp),Centre,1,1.4292202912873684,10
+Kick (Open Play),22m-5m (opp),Centre,2-3,1.2559825893347902,73
+Kick (Open Play),22m-5m (opp),Centre,4-6,1.5276350362838462,144
+Kick (Open Play),22m-5m (opp),Centre,7+,1.427800377666394,265
+Kick (Open Play),22m-5m (opp),Right,1,1.2245749655320028,14
+Kick (Open Play),22m-5m (opp),Right,2-3,0.9469975321041197,38
+Kick (Open Play),22m-5m (opp),Right,4-6,1.248877745582142,47
+Kick (Open Play),22m-5m (opp),Right,7+,1.2928878279086387,69
+Kick (Open Play),5m-Goal (opp),Left,1,1.9214877712074514,6
+Kick (Open Play),5m-Goal (opp),Left,2-3,0.9953725296161722,3
+Kick (Open Play),5m-Goal (opp),Left,4-6,0.6184363810600607,5
+Kick (Open Play),5m-Goal (opp),Left,7+,1.4658032730269586,20
+Kick (Open Play),5m-Goal (opp),Centre,1,1.6844462240358815,7
+Kick (Open Play),5m-Goal (opp),Centre,2-3,1.115177615007906,5
+Kick (Open Play),5m-Goal (opp),Centre,4-6,1.4931371705907162,9
+Kick (Open Play),5m-Goal (opp),Centre,7+,1.8399576222695264,59
+Kick (Open Play),5m-Goal (opp),Right,1,1.4145282699755368,5
+Kick (Open Play),5m-Goal (opp),Right,2-3,0.7284808515326582,1
+Kick (Open Play),5m-Goal (opp),Right,4-6,1.2933705618410556,4
+Kick (Open Play),5m-Goal (opp),Right,7+,1.3948129158534706,17
+Turnover Steal,Goal-5m (own),Left,1,0.13594646994926143,30
+Turnover Steal,Goal-5m (own),Left,2-3,0.24173056023895556,13
+Turnover Steal,Goal-5m (own),Left,4-6,0.45647615461118746,5
+Turnover Steal,Goal-5m (own),Left,7+,0.6691255563803326,0
+Turnover Steal,Goal-5m (own),Centre,1,0.2339402565399029,40
+Turnover Steal,Goal-5m (own),Centre,2-3,0.28682932389756793,13
+Turnover Steal,Goal-5m (own),Centre,4-6,0.5715687097977097,2
+Turnover Steal,Goal-5m (own),Centre,7+,0.6691255563803329,0
+Turnover Steal,Goal-5m (own),Right,1,0.18458470203162966,24
+Turnover Steal,Goal-5m (own),Right,2-3,0.3036417882034561,7
+Turnover Steal,Goal-5m (own),Right,4-6,0.6624470807703539,0
+Turnover Steal,Goal-5m (own),Right,7+,0.6691255563803327,0
+Turnover Steal,5m-22m (own),Left,1,0.16951491675284844,94
+Turnover Steal,5m-22m (own),Left,2-3,-0.08765594810227036,67
+Turnover Steal,5m-22m (own),Left,4-6,0.221613445211519,15
+Turnover Steal,5m-22m (own),Left,7+,0.6654339779243595,1
+Turnover Steal,5m-22m (own),Centre,1,0.0167813638747773,209
+Turnover Steal,5m-22m (own),Centre,2-3,-0.04523516942400653,139
+Turnover Steal,5m-22m (own),Centre,4-6,0.4448659080093135,14
+Turnover Steal,5m-22m (own),Centre,7+,0.5781537107782042,15
+Turnover Steal,5m-22m (own),Right,1,0.0768423871843564,99
+Turnover Steal,5m-22m (own),Right,2-3,-0.13471381060037918,67
+Turnover Steal,5m-22m (own),Right,4-6,0.5495293075464109,11
+Turnover Steal,5m-22m (own),Right,7+,0.9067150630612032,1
+Turnover Steal,22m-10m (own),Left,1,0.2647119422200147,132
+Turnover Steal,22m-10m (own),Left,2-3,0.18171901742169852,88
+Turnover Steal,22m-10m (own),Left,4-6,0.32408484156291734,29
+Turnover Steal,22m-10m (own),Left,7+,0.6732919551249403,8
+Turnover Steal,22m-10m (own),Centre,1,0.4031997054429889,248
+Turnover Steal,22m-10m (own),Centre,2-3,0.13847044693303867,198
+Turnover Steal,22m-10m (own),Centre,4-6,0.2756924803887242,76
+Turnover Steal,22m-10m (own),Centre,7+,0.6427389134689349,27
+Turnover Steal,22m-10m (own),Right,1,0.2787308163366333,100
+Turnover Steal,22m-10m (own),Right,2-3,0.20076529764376247,75
+Turnover Steal,22m-10m (own),Right,4-6,0.6284566981856253,10
+Turnover Steal,22m-10m (own),Right,7+,0.6617075061829817,4
+Turnover Steal,10m-Half (own),Left,1,0.4662659031360695,61
+Turnover Steal,10m-Half (own),Left,2-3,0.3780003849521366,34
+Turnover Steal,10m-Half (own),Left,4-6,0.3431957164194477,21
+Turnover Steal,10m-Half (own),Left,7+,0.6602488751677067,4
+Turnover Steal,10m-Half (own),Centre,1,0.5403842133696978,152
+Turnover Steal,10m-Half (own),Centre,2-3,0.3603419102554702,149
+Turnover Steal,10m-Half (own),Centre,4-6,0.36874915238048994,48
+Turnover Steal,10m-Half (own),Centre,7+,0.4953344947062077,16
+Turnover Steal,10m-Half (own),Right,1,0.3749565182823167,57
+Turnover Steal,10m-Half (own),Right,2-3,0.41310341443347254,39
+Turnover Steal,10m-Half (own),Right,4-6,0.36195943240620376,12
+Turnover Steal,10m-Half (own),Right,7+,0.5887697591502461,3
+Turnover Steal,Half-10m (opp),Left,1,0.5362154579187417,43
+Turnover Steal,Half-10m (opp),Left,2-3,0.5747392706919403,40
+Turnover Steal,Half-10m (opp),Left,4-6,0.668551853909099,22
+Turnover Steal,Half-10m (opp),Left,7+,0.6315247229310849,11
+Turnover Steal,Half-10m (opp),Centre,1,0.8782631078315248,94
+Turnover Steal,Half-10m (opp),Centre,2-3,0.5111058495107507,127
+Turnover Steal,Half-10m (opp),Centre,4-6,0.46005416685318895,84
+Turnover Steal,Half-10m (opp),Centre,7+,0.5444343961425279,42
+Turnover Steal,Half-10m (opp),Right,1,0.44914807095696924,46
+Turnover Steal,Half-10m (opp),Right,2-3,0.5408041640877351,48
+Turnover Steal,Half-10m (opp),Right,4-6,0.8730158721427359,15
+Turnover Steal,Half-10m (opp),Right,7+,0.655103430029556,4
+Turnover Steal,10m-22m (opp),Left,1,0.8686096472219387,54
+Turnover Steal,10m-22m (opp),Left,2-3,0.7885789909721764,67
+Turnover Steal,10m-22m (opp),Left,4-6,1.0147772472732017,45
+Turnover Steal,10m-22m (opp),Left,7+,0.7881651545268847,34
+Turnover Steal,10m-22m (opp),Centre,1,0.9671585474240357,82
+Turnover Steal,10m-22m (opp),Centre,2-3,0.7828629439928975,192
+Turnover Steal,10m-22m (opp),Centre,4-6,0.9376399068045421,169
+Turnover Steal,10m-22m (opp),Centre,7+,0.9183644884984408,87
+Turnover Steal,10m-22m (opp),Right,1,0.7735421833154276,42
+Turnover Steal,10m-22m (opp),Right,2-3,0.7687071443201502,62
+Turnover Steal,10m-22m (opp),Right,4-6,1.0271308350310129,37
+Turnover Steal,10m-22m (opp),Right,7+,0.7254046629688523,11
+Turnover Steal,22m-5m (opp),Left,1,0.938211125129119,14
+Turnover Steal,22m-5m (opp),Left,2-3,1.2088760968055874,33
+Turnover Steal,22m-5m (opp),Left,4-6,1.0777568708981655,16
+Turnover Steal,22m-5m (opp),Left,7+,1.0818168852876648,18
+Turnover Steal,22m-5m (opp),Centre,1,1.0025279362725241,28
+Turnover Steal,22m-5m (opp),Centre,2-3,1.272266648994491,69
+Turnover Steal,22m-5m (opp),Centre,4-6,1.2287213405232809,86
+Turnover Steal,22m-5m (opp),Centre,7+,1.1099530469213923,95
+Turnover Steal,22m-5m (opp),Right,1,0.8665823737229469,20
+Turnover Steal,22m-5m (opp),Right,2-3,0.835499123395111,31
+Turnover Steal,22m-5m (opp),Right,4-6,0.9829123855772047,25
+Turnover Steal,22m-5m (opp),Right,7+,1.1048029977774647,31
+Turnover Steal,5m-Goal (opp),Left,1,0.95315927262238,4
+Turnover Steal,5m-Goal (opp),Left,2-3,1.0233468711058873,6
+Turnover Steal,5m-Goal (opp),Left,4-6,1.0413371262457052,9
+Turnover Steal,5m-Goal (opp),Left,7+,1.1733863503925264,14
+Turnover Steal,5m-Goal (opp),Centre,1,0.6529644733438849,5
+Turnover Steal,5m-Goal (opp),Centre,2-3,1.3190306475382738,12
+Turnover Steal,5m-Goal (opp),Centre,4-6,1.0567758600579202,15
+Turnover Steal,5m-Goal (opp),Centre,7+,1.6000518463973608,32
+Turnover Steal,5m-Goal (opp),Right,1,1.0555418054218013,5
+Turnover Steal,5m-Goal (opp),Right,2-3,0.7868384740670663,4
+Turnover Steal,5m-Goal (opp),Right,4-6,1.0319045112972645,6
+Turnover Steal,5m-Goal (opp),Right,7+,1.2424048162691106,6
+Restart Kick,Goal-5m (own),Left,1,0.21131459244750084,7
+Restart Kick,Goal-5m (own),Left,2-3,0.584553432292778,0
+Restart Kick,Goal-5m (own),Left,4-6,0.6483051100602705,0
+Restart Kick,Goal-5m (own),Left,7+,0.6624908429084028,0
+Restart Kick,Goal-5m (own),Centre,1,0.22320610279710149,6
+Restart Kick,Goal-5m (own),Centre,2-3,0.5845534322927779,0
+Restart Kick,Goal-5m (own),Centre,4-6,0.6483051100602708,0
+Restart Kick,Goal-5m (own),Centre,7+,0.6624908429084032,0
+Restart Kick,Goal-5m (own),Right,1,0.3655451603111943,5
+Restart Kick,Goal-5m (own),Right,2-3,0.5096934873085008,1
+Restart Kick,Goal-5m (own),Right,4-6,0.6483051100602709,0
+Restart Kick,Goal-5m (own),Right,7+,0.6624908429084028,0
+Restart Kick,5m-22m (own),Left,1,-0.17625215144949585,407
+Restart Kick,5m-22m (own),Left,2-3,-0.2833092048716149,260
+Restart Kick,5m-22m (own),Left,4-6,0.2520310161578964,37
+Restart Kick,5m-22m (own),Left,7+,0.8645190735856014,2
+Restart Kick,5m-22m (own),Centre,1,-0.1229211661607352,140
+Restart Kick,5m-22m (own),Centre,2-3,-0.18152461534712958,320
+Restart Kick,5m-22m (own),Centre,4-6,0.11899957740564632,51
+Restart Kick,5m-22m (own),Centre,7+,0.8506292188002028,9
+Restart Kick,5m-22m (own),Right,1,-0.0837491208071974,223
+Restart Kick,5m-22m (own),Right,2-3,-0.17474605092387616,155
+Restart Kick,5m-22m (own),Right,4-6,0.3480278989685378,12
+Restart Kick,5m-22m (own),Right,7+,0.575076996857886,4
+Restart Kick,22m-10m (own),Left,1,0.015126316781071228,203
+Restart Kick,22m-10m (own),Left,2-3,-0.04660213491322545,229
+Restart Kick,22m-10m (own),Left,4-6,0.22440577312912063,52
+Restart Kick,22m-10m (own),Left,7+,0.5072207913604191,10
+Restart Kick,22m-10m (own),Centre,1,0.1013456090998848,190
+Restart Kick,22m-10m (own),Centre,2-3,-0.01701675481954726,332
+Restart Kick,22m-10m (own),Centre,4-6,0.14410321698386633,97
+Restart Kick,22m-10m (own),Centre,7+,0.722472788611638,18
+Restart Kick,22m-10m (own),Right,1,-0.016624373715805177,173
+Restart Kick,22m-10m (own),Right,2-3,-0.04757435286478427,182
+Restart Kick,22m-10m (own),Right,4-6,0.3384411200594507,31
+Restart Kick,22m-10m (own),Right,7+,0.535381041614761,7
+Restart Kick,10m-Half (own),Left,1,0.4447207932643527,20
+Restart Kick,10m-Half (own),Left,2-3,0.5546117087999469,22
+Restart Kick,10m-Half (own),Left,4-6,0.5516587207502602,15
+Restart Kick,10m-Half (own),Left,7+,0.5814194898505839,3
+Restart Kick,10m-Half (own),Centre,1,0.48331786429794454,20
+Restart Kick,10m-Half (own),Centre,2-3,0.3322198322043558,51
+Restart Kick,10m-Half (own),Centre,4-6,0.45232894343479996,46
+Restart Kick,10m-Half (own),Centre,7+,0.5232843120627032,10
+Restart Kick,10m-Half (own),Right,1,0.7060728883959373,11
+Restart Kick,10m-Half (own),Right,2-3,0.5303711524074664,20
+Restart Kick,10m-Half (own),Right,4-6,0.7710138060121836,11
+Restart Kick,10m-Half (own),Right,7+,0.6570496158764275,2
+Restart Kick,Half-10m (opp),Left,1,0.5619466009626408,8
+Restart Kick,Half-10m (opp),Left,2-3,0.40146879305920763,23
+Restart Kick,Half-10m (opp),Left,4-6,0.6148509895018031,15
+Restart Kick,Half-10m (opp),Left,7+,0.5843122965252032,6
+Restart Kick,Half-10m (opp),Centre,1,0.7183525201140314,13
+Restart Kick,Half-10m (opp),Centre,2-3,0.520702405737828,57
+Restart Kick,Half-10m (opp),Centre,4-6,0.6518776068008189,54
+Restart Kick,Half-10m (opp),Centre,7+,0.36891578904149525,22
+Restart Kick,Half-10m (opp),Right,1,0.5278224306683443,12
+Restart Kick,Half-10m (opp),Right,2-3,0.569112671922203,26
+Restart Kick,Half-10m (opp),Right,4-6,0.6100646257496328,13
+Restart Kick,Half-10m (opp),Right,7+,0.48783967392438055,7
+Restart Kick,10m-22m (opp),Left,1,0.5810510136076374,17
+Restart Kick,10m-22m (opp),Left,2-3,0.6128096587285705,25
+Restart Kick,10m-22m (opp),Left,4-6,0.7608381479053092,30
+Restart Kick,10m-22m (opp),Left,7+,0.7857202071303776,26
+Restart Kick,10m-22m (opp),Centre,1,0.5972008387388043,42
+Restart Kick,10m-22m (opp),Centre,2-3,0.6336806774023919,99
+Restart Kick,10m-22m (opp),Centre,4-6,0.7336701172011816,106
+Restart Kick,10m-22m (opp),Centre,7+,0.6137680148201436,90
+Restart Kick,10m-22m (opp),Right,1,0.6132029399536087,50
+Restart Kick,10m-22m (opp),Right,2-3,0.7713112749719384,34
+Restart Kick,10m-22m (opp),Right,4-6,0.6294184580275465,20
+Restart Kick,10m-22m (opp),Right,7+,0.8259877695185794,17
+Restart Kick,22m-5m (opp),Left,1,0.539883955500252,3
+Restart Kick,22m-5m (opp),Left,2-3,0.711620610685949,4
+Restart Kick,22m-5m (opp),Left,4-6,0.7683786022747067,11
+Restart Kick,22m-5m (opp),Left,7+,0.8959475834494471,8
+Restart Kick,22m-5m (opp),Centre,1,0.6816777661723049,2
+Restart Kick,22m-5m (opp),Centre,2-3,0.8288793116815769,31
+Restart Kick,22m-5m (opp),Centre,4-6,0.8348554070780202,39
+Restart Kick,22m-5m (opp),Centre,7+,0.9613059859968717,59
+Restart Kick,22m-5m (opp),Right,1,0.5465368516686528,8
+Restart Kick,22m-5m (opp),Right,2-3,0.7967675365167147,13
+Restart Kick,22m-5m (opp),Right,4-6,0.947404583080985,8
+Restart Kick,22m-5m (opp),Right,7+,0.8019300088381425,9
+Restart Kick,5m-Goal (opp),Left,1,0.6815048694753538,0
+Restart Kick,5m-Goal (opp),Left,2-3,0.6729259667868003,1
+Restart Kick,5m-Goal (opp),Left,4-6,0.8340649174056519,2
+Restart Kick,5m-Goal (opp),Left,7+,0.8077827604846364,0
+Restart Kick,5m-Goal (opp),Centre,1,0.6815048694753542,0
+Restart Kick,5m-Goal (opp),Centre,2-3,0.6610494024875635,0
+Restart Kick,5m-Goal (opp),Centre,4-6,0.7268335485529894,0
+Restart Kick,5m-Goal (opp),Centre,7+,1.6713371730873432,7
+Restart Kick,5m-Goal (opp),Right,1,0.7002152872989733,1
+Restart Kick,5m-Goal (opp),Right,2-3,0.6610494024875636,0
+Restart Kick,5m-Goal (opp),Right,4-6,0.7401614686387724,1
+Restart Kick,5m-Goal (opp),Right,7+,0.9129022115288439,11
+Quick Tap,Goal-5m (own),Left,1,0.644434120409636,1
+Quick Tap,Goal-5m (own),Left,2-3,0.8979306451059291,1
+Quick Tap,Goal-5m (own),Left,4-6,0.6611395629440868,0
+Quick Tap,Goal-5m (own),Left,7+,0.6645527606767644,0
+Quick Tap,Goal-5m (own),Centre,1,0.6326366992008867,1
+Quick Tap,Goal-5m (own),Centre,2-3,0.6544344289212144,0
+Quick Tap,Goal-5m (own),Centre,4-6,0.6611395629440869,0
+Quick Tap,Goal-5m (own),Centre,7+,0.6645527606767644,0
+Quick Tap,Goal-5m (own),Right,1,0.630954958518222,1
+Quick Tap,Goal-5m (own),Right,2-3,0.6544344289212145,0
+Quick Tap,Goal-5m (own),Right,4-6,0.6611395629440869,0
+Quick Tap,Goal-5m (own),Right,7+,0.6645527606767644,0
+Quick Tap,5m-22m (own),Left,1,0.5204516237459778,3
+Quick Tap,5m-22m (own),Left,2-3,0.42651844587567267,3
+Quick Tap,5m-22m (own),Left,4-6,0.6540328671292007,1
+Quick Tap,5m-22m (own),Left,7+,0.662828784172109,0
+Quick Tap,5m-22m (own),Centre,1,0.4299155799984303,15
+Quick Tap,5m-22m (own),Centre,2-3,0.8038937415498209,5
+Quick Tap,5m-22m (own),Centre,4-6,0.6574035264245085,5
+Quick Tap,5m-22m (own),Centre,7+,0.5918032464857884,4
+Quick Tap,5m-22m (own),Right,1,0.49508642472527387,2
+Quick Tap,5m-22m (own),Right,2-3,0.5431572298249548,0
+Quick Tap,5m-22m (own),Right,4-6,0.655927684555411,2
+Quick Tap,5m-22m (own),Right,7+,0.6628287841721087,0
+Quick Tap,22m-10m (own),Left,1,0.5527252113203895,5
+Quick Tap,22m-10m (own),Left,2-3,0.40666784083710994,3
+Quick Tap,22m-10m (own),Left,4-6,0.5723698182224363,2
+Quick Tap,22m-10m (own),Left,7+,0.664910993528948,1
+Quick Tap,22m-10m (own),Centre,1,0.3626149753068734,15
+Quick Tap,22m-10m (own),Centre,2-3,0.4712850046672378,13
+Quick Tap,22m-10m (own),Centre,4-6,0.7589351757119391,9
+Quick Tap,22m-10m (own),Centre,7+,0.8240928622892469,9
+Quick Tap,22m-10m (own),Right,1,0.5192734008887151,6
+Quick Tap,22m-10m (own),Right,2-3,0.5491924555821137,3
+Quick Tap,22m-10m (own),Right,4-6,0.5949178123719039,6
+Quick Tap,22m-10m (own),Right,7+,0.6708504042749612,2
+Quick Tap,10m-Half (own),Left,1,0.6368870256297262,3
+Quick Tap,10m-Half (own),Left,2-3,0.5546357583146208,4
+Quick Tap,10m-Half (own),Left,4-6,0.6423573018693018,0
+Quick Tap,10m-Half (own),Left,7+,0.6689673087986997,1
+Quick Tap,10m-Half (own),Centre,1,0.6683786624060248,7
+Quick Tap,10m-Half (own),Centre,2-3,0.597467277211619,17
+Quick Tap,10m-Half (own),Centre,4-6,0.6768254322283359,10
+Quick Tap,10m-Half (own),Centre,7+,0.5549079314969991,5
+Quick Tap,10m-Half (own),Right,1,0.8291018513217329,5
+Quick Tap,10m-Half (own),Right,2-3,0.6256352490983339,3
+Quick Tap,10m-Half (own),Right,4-6,0.5791174653847991,2
+Quick Tap,10m-Half (own),Right,7+,0.6626989018574259,2
+Quick Tap,Half-10m (opp),Left,1,0.5838597971051152,2
+Quick Tap,Half-10m (opp),Left,2-3,0.6655588922713611,2
+Quick Tap,Half-10m (opp),Left,4-6,0.5381841156413524,4
+Quick Tap,Half-10m (opp),Left,7+,0.6593927574321766,1
+Quick Tap,Half-10m (opp),Centre,1,0.5993615774164345,12
+Quick Tap,Half-10m (opp),Centre,2-3,0.7819311821236281,16
+Quick Tap,Half-10m (opp),Centre,4-6,0.7902001627239356,7
+Quick Tap,Half-10m (opp),Centre,7+,0.6816895943825148,3
+Quick Tap,Half-10m (opp),Right,1,0.8219120284140575,5
+Quick Tap,Half-10m (opp),Right,2-3,0.6580188860517178,2
+Quick Tap,Half-10m (opp),Right,4-6,0.6536628271097331,0
+Quick Tap,Half-10m (opp),Right,7+,0.5777949423846667,1
+Quick Tap,10m-22m (opp),Left,1,0.7021555281580443,6
+Quick Tap,10m-22m (opp),Left,2-3,0.6010370898127239,7
+Quick Tap,10m-22m (opp),Left,4-6,0.6139807031007591,7
+Quick Tap,10m-22m (opp),Left,7+,0.8884769525993262,6
+Quick Tap,10m-22m (opp),Centre,1,0.7922162711000529,14
+Quick Tap,10m-22m (opp),Centre,2-3,0.7035440875561969,41
+Quick Tap,10m-22m (opp),Centre,4-6,0.8406067235165082,35
+Quick Tap,10m-22m (opp),Centre,7+,0.6215298575237092,17
+Quick Tap,10m-22m (opp),Right,1,0.7152476583750622,9
+Quick Tap,10m-22m (opp),Right,2-3,0.6822618327412134,8
+Quick Tap,10m-22m (opp),Right,4-6,0.7588415972888289,5
+Quick Tap,10m-22m (opp),Right,7+,0.895787381021813,5
+Quick Tap,22m-5m (opp),Left,1,1.0005081152557764,6
+Quick Tap,22m-5m (opp),Left,2-3,0.7565098415070893,9
+Quick Tap,22m-5m (opp),Left,4-6,0.9532039941248389,8
+Quick Tap,22m-5m (opp),Left,7+,0.6823819382599903,4
+Quick Tap,22m-5m (opp),Centre,1,1.014199933367403,15
+Quick Tap,22m-5m (opp),Centre,2-3,0.9825052261749063,22
+Quick Tap,22m-5m (opp),Centre,4-6,0.9765475369876542,19
+Quick Tap,22m-5m (opp),Centre,7+,1.0911856059987783,24
+Quick Tap,22m-5m (opp),Right,1,0.6410599259684318,6
+Quick Tap,22m-5m (opp),Right,2-3,0.8415259313133453,7
+Quick Tap,22m-5m (opp),Right,4-6,0.8129151070566006,5
+Quick Tap,22m-5m (opp),Right,7+,0.7570198735243823,4
+Quick Tap,5m-Goal (opp),Left,1,0.8066252776768852,4
+Quick Tap,5m-Goal (opp),Left,2-3,0.9930320264036201,9
+Quick Tap,5m-Goal (opp),Left,4-6,0.7717247176136932,2
+Quick Tap,5m-Goal (opp),Left,7+,1.0891332358970793,6
+Quick Tap,5m-Goal (opp),Centre,1,1.0084420240981178,11
+Quick Tap,5m-Goal (opp),Centre,2-3,1.4641096482330593,31
+Quick Tap,5m-Goal (opp),Centre,4-6,1.3001071423274677,20
+Quick Tap,5m-Goal (opp),Centre,7+,1.4440886877321646,20
+Quick Tap,5m-Goal (opp),Right,1,1.0548762775015506,2
+Quick Tap,5m-Goal (opp),Right,2-3,0.7540247688951484,2
+Quick Tap,5m-Goal (opp),Right,4-6,1.0098757248850494,5
+Quick Tap,5m-Goal (opp),Right,7+,0.8399469435898337,1
